@@ -253,3 +253,84 @@
         damage:
           types:
             Cellular: 2
+
+# Tweak Aphrodite
+- type: reagent
+  parent: Blood
+  id: BloodO(I)RH+
+  name: reagent-name-blood-O(I)RH+
+  group: Biological
+  desc: reagent-name-blood-O(I)RH+
+  flavor: metallic
+  recognizable: true
+  physicalDesc: reagent-physical-desc-metallic
+
+- type: reagent
+  parent: Blood
+  id: BloodO(I)RH-
+  name: reagent-name-blood-O(I)RH-
+  group: Biological
+  desc: reagent-name-blood-O(I)RH-
+  flavor: metallic
+  recognizable: true
+  physicalDesc: reagent-physical-desc-metallic
+
+- type: reagent
+  parent: Blood
+  id: BloodA(II)RH+
+  name: reagent-name-blood-A(II)RH+
+  group: Biological
+  desc: reagent-name-blood-A(II)RH+
+  flavor: metallic
+  recognizable: true
+  physicalDesc: reagent-physical-desc-metallic
+
+- type: reagent
+  parent: Blood
+  id: BloodA(II)RH-
+  name: reagent-name-blood-A(II)RH-
+  group: Biological
+  desc: reagent-name-blood-A(II)RH-
+  flavor: metallic
+  recognizable: true
+  physicalDesc: reagent-physical-desc-metallic
+
+- type: reagent
+  parent: Blood
+  id: BloodB(III)RH+
+  name: reagent-name-blood-B(III)RH+
+  group: Biological
+  desc: reagent-name-blood-B(III)RH+
+  flavor: metallic
+  recognizable: true
+  physicalDesc: reagent-physical-desc-metallic
+
+- type: reagent
+  parent: Blood
+  id: BloodB(III)RH-
+  name: reagent-name-blood-B(III)RH-
+  group: Biological
+  desc: reagent-name-blood-B(III)RH-
+  flavor: metallic
+  recognizable: true
+  physicalDesc: reagent-physical-desc-metallic
+
+- type: reagent
+  parent: Blood
+  id: BloodAB(IV)RH+
+  name: reagent-name-blood-AB(IV)RH+
+  group: Biological
+  desc: reagent-name-blood-AB(IV)RH+
+  flavor: metallic
+  recognizable: true
+  physicalDesc: reagent-physical-desc-metallic
+
+- type: reagent
+  parent: Blood
+  id: BloodAB(IV)RH-
+  name: reagent-name-blood-AB(IV)RH-
+  group: Biological
+  desc: reagent-name-blood-AB(IV)RH-
+  flavor: metallic
+  recognizable: true
+  physicalDesc: reagent-physical-desc-metallic
