@@ -11,7 +11,7 @@ namespace Content.Shared.Localizations
 
         // If you want to change your codebase's language, do it here.
         private const string Culture = "ru-RU"; // Tweak-Aphrodite
-        private const string FallBackCulture = "en-US"; // Tweak-Aphrodite
+        private const string FallbackCulture = "en-US"; // Tweak-Aphrodite
 
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
@@ -27,10 +27,10 @@ namespace Content.Shared.Localizations
         public void Initialize()
         {
             var culture = new CultureInfo(Culture);
-            var fallbackculture = new CultureInfo(FallBackCulture); // Tweak-Aphrodite
+            var fallbackCulture = new CultureInfo(FallbackCulture); // Tweak-Aphrodite
 
             _loc.LoadCulture(culture);
-            _loc.LoadCulture(fallbackculture); // Tweak-Aphrodite
+            _loc.LoadCulture(fallbackCulture); // Tweak-Aphrodite
             _loc.SetFallbackCluture(fallbackCulture); // Tweak-Aphrodite
             _loc.AddFunction(culture, "MANY", FormatMany); // Tweak-Aphrodite
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
