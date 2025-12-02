@@ -11,12 +11,6 @@
       collection: AvaliCoughs
     Sneeze:
       collection: AvaliSneeze
-    Hiss:
-      collection: AvaliHiss
-    Chirps:
-      collection: AvaliChirps
-    Coos:
-      collection: AvaliCoos
     Honk:
       collection: BikeHorn
     Whistle:
@@ -43,12 +37,6 @@
       collection: AvaliCoughs
     Sneeze:
       collection: AvaliSneeze
-    Hiss:
-      collection: AvaliHiss
-    Chirps:
-      collection: AvaliChirps
-    Coos:
-      collection: AvaliCoos
     Honk:
       collection: BikeHorn
     Whistle:
