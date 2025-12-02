@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "https://github.com/Skyrat-SS13/Skyrat-tg/blob/e0d164017ae7eb3fee9c538cdb5baa9eb4bf1b87/modular_skyrat/master_files/icons/mob/clothing/suits/spacesuit.dmi, equipped-OUTERCLOTHING-resomi made by Pofitlo",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/4f6190e2895e09116663ef282d3ce1d8b35c032e. equipped-OUTERCLOTHING-vox state taken from /vg/station at commit https://github.com/vgstation-coders/vgstation13/commit/31d6576ba8102135d058ef49c3cb6ecbe8db8a79. Tail sprite by Tiniest Shark (github). equipped-OUTERCLOTHING-avali made by Pofitlo.",
   "size": {
     "x": 32,
     "y": 32
@@ -15,7 +15,11 @@
       "directions": 4
     },
     {
-      "name": "equipped-OUTERCLOTHING-resomi",
+      "name": "equipped-OUTERCLOTHING-vox",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -25,6 +29,11 @@
     {
       "name": "inhand-right",
       "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-reptilian",
+      "directions": 4
     }
   ]
 }
+
