@@ -1,1 +1,1 @@
-metabolizer-type-resomi = Авали
+metabolizer-type-avali = Авали
