@@ -1,0 +1,10 @@
+- type: reagent
+  parent: Blood
+  id: AvaliBlood
+  name: reagent-name-avali-blood
+  group: Biological
+  desc: reagent-desc-avali-blood
+  flavor: horrible
+  color: "#c048c2"
+  recognizable: true
+  physicalDesc: reagent-physical-desc-slimy

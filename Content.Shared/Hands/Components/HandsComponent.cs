@@ -1,3 +1,4 @@
+using System.Numerics;
 using Content.Shared.DisplacementMap;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Whitelist;
@@ -95,6 +96,14 @@ public sealed partial class HandsComponent : Component
     /// </summary>
     [DataField]
     public DisplacementData? RightHandDisplacement;
+
+    // Aphrodite-Tweak start
+    /// <summary>
+    ///     Scale multiplier applied to all items held in hands. Useful for smaller species like acali.
+    /// </summary>
+    [DataField]
+    public Vector2? InHandItemScale;
+    // Aphrodite-Tweak end
 
     /// <summary>
     /// If false, hands cannot be stripped, and they do not show up in the stripping menu.
