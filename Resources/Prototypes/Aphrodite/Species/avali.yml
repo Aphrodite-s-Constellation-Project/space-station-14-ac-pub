@@ -12,7 +12,7 @@
   dollPrototype: MobAvaliDummy
   skinColoration: Hues
   category: Special
-  description: "/ServerInfo/ADT/SpeciesDescriptions/Avali.xml"
+  description: "/ServerInfo/Aphrodite/SpeciesDescriptions/Avali.xml"
   pros:
   - Слышат шёпот на дальней дистанции.
   - Получают на 40% меньше урона от холода.
@@ -77,7 +77,7 @@
 - type: humanoidBaseSprite
   id: MobAvaliEyes
   baseSprite:
-    sprite: ADT/Mobs/Customization/Avali/eyes.rsi
+    sprite: Aphrodite/Mobs/Customization/Avali/eyes.rsi
     state: avali
 
 - type: humanoidBaseSprite
@@ -86,83 +86,83 @@
 - type: humanoidBaseSprite
   id: MobAvaliHead
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobAvaliHeadMale
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: head_m
 
 - type: humanoidBaseSprite
   id: MobAvaliHeadFemale
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: head_f
 
 - type: humanoidBaseSprite
   id: MobAvaliTorso
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobAvaliTorsoMale
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: torso_m
 
 - type: humanoidBaseSprite
   id: MobAvaliTorsoFemale
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: torso_f
 
 - type: humanoidBaseSprite
   id: MobAvaliLLeg
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: l_leg
 
 - type: humanoidBaseSprite
   id: MobAvaliLArm
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: l_arm
 
 - type: humanoidBaseSprite
   id: MobAvaliLHand
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: l_hand
 
 - type: humanoidBaseSprite
   id: MobAvaliLFoot
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: l_foot
 
 - type: humanoidBaseSprite
   id: MobAvaliRLeg
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: r_leg
 
 - type: humanoidBaseSprite
   id: MobAvaliRArm
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: r_arm
 
 - type: humanoidBaseSprite
   id: MobAvaliRHand
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: r_hand
 
 - type: humanoidBaseSprite
   id: MobAvaliRFoot
   baseSprite:
-    sprite: ADT/Mobs/Species/Avali/parts.rsi
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
     state: r_foot
