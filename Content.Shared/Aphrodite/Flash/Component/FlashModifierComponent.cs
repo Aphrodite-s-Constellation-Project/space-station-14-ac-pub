@@ -2,7 +2,7 @@ namespace Content.Shared.Flash.Components;
 
 
 /// <summary>
-/// Corvax-Next-Resomi
+/// Corvax-Next-Avali
 /// </summary>
 
 [RegisterComponent]

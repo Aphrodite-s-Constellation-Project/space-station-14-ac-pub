@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/46a92082e4dd599e233ebf280050fb5be0107da9. equipped-OUTERCLOTHING-vox state taken from /vg/station at commit https://github.com/vgstation-coders/vgstation13/commit/31d6576ba8102135d058ef49c3cb6ecbe8db8a79 and repaletted to match by Flareguy, grayscale layering & armor by IProduceWidgets (Github), upgraded dont vox sprites BAR, CAP, CHEF, HOP, WARD by discord:prazat911, sprites for resomi by Pofitlo, PARA-icon, PARA-equipped-OUTERCLOTHING, PARA-equipped-OUTERCLOTHING-resomi, PARA-inhand-left, PARA-inhand-right edited by pangaari (discord)",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/46a92082e4dd599e233ebf280050fb5be0107da9. equipped-OUTERCLOTHING-vox state taken from /vg/station at commit https://github.com/vgstation-coders/vgstation13/commit/31d6576ba8102135d058ef49c3cb6ecbe8db8a79 and repaletted to match by Flareguy, grayscale layering & armor by IProduceWidgets (Github), upgraded dont vox sprites BAR, CAP, CHEF, HOP, WARD by discord:prazat911, sprites for avali by Pofitlo, PARA-icon, PARA-equipped-OUTERCLOTHING, PARA-equipped-OUTERCLOTHING-avali, PARA-inhand-left, PARA-inhand-right edited by pangaari (discord)",
   "size": {
     "x": 32,
     "y": 32
@@ -19,7 +19,7 @@
       "directions": 4
     },
     {
-      "name": "equipped-OUTERCLOTHING-resomi",
+      "name": "equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -42,7 +42,7 @@
       "directions": 4
     },
     {
-      "name": "ATMOS-equipped-OUTERCLOTHING-resomi",
+      "name": "ATMOS-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -65,7 +65,7 @@
       "directions": 4
     },
     {
-      "name": "SCI-equipped-OUTERCLOTHING-resomi",
+      "name": "SCI-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -84,7 +84,7 @@
       "directions": 4
     },
     {
-      "name": "CHEM-equipped-OUTERCLOTHING-resomi",
+      "name": "CHEM-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -107,7 +107,7 @@
       "directions": 4
     },
     {
-      "name": "MIME-equipped-OUTERCLOTHING-resomi",
+      "name": "MIME-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -130,7 +130,7 @@
       "directions": 4
     },
     {
-      "name": "BAR-equipped-OUTERCLOTHING-resomi",
+      "name": "BAR-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -153,7 +153,7 @@
       "directions": 4
     },
     {
-      "name": "PARA-equipped-OUTERCLOTHING-resomi",
+      "name": "PARA-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -176,7 +176,7 @@
       "directions": 4
     },
     {
-      "name": "MINER-equipped-OUTERCLOTHING-resomi",
+      "name": "MINER-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -199,7 +199,7 @@
       "directions": 4
     },
     {
-      "name": "CARGO-equipped-OUTERCLOTHING-resomi",
+      "name": "CARGO-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -222,7 +222,7 @@
       "directions": 4
     },
     {
-      "name": "HYDRO-equipped-OUTERCLOTHING-resomi",
+      "name": "HYDRO-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -241,7 +241,7 @@
       "directions": 4
     },
     {
-      "name": "CHEF-equipped-OUTERCLOTHING-resomi",
+      "name": "CHEF-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -260,7 +260,7 @@
       "directions": 4
     },
     {
-      "name": "GENE-equipped-OUTERCLOTHING-resomi",
+      "name": "GENE-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -283,7 +283,7 @@
       "directions": 4
     },
     {
-      "name": "ENGI-equipped-OUTERCLOTHING-resomi",
+      "name": "ENGI-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -306,7 +306,7 @@
       "directions": 4
     },
     {
-      "name": "CAP-equipped-OUTERCLOTHING-resomi",
+      "name": "CAP-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -325,7 +325,7 @@
       "directions": 4
     },
     {
-      "name": "WARD-equipped-OUTERCLOTHING-resomi",
+      "name": "WARD-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -344,7 +344,7 @@
       "directions": 4
     },
     {
-      "name": "JANI-equipped-OUTERCLOTHING-resomi",
+      "name": "JANI-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -363,7 +363,7 @@
       "directions": 4
     },
     {
-      "name": "HOP-equipped-OUTERCLOTHING-resomi",
+      "name": "HOP-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -386,7 +386,7 @@
       "directions": 4
     },
     {
-      "name": "MED-equipped-OUTERCLOTHING-resomi",
+      "name": "MED-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -409,7 +409,7 @@
       "directions": 4
     },
     {
-      "name": "SEC-equipped-OUTERCLOTHING-resomi",
+      "name": "SEC-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -428,7 +428,7 @@
       "directions": 4
     },
     {
-      "name": "SYNDIECAP-equipped-OUTERCLOTHING-resomi",
+      "name": "SYNDIECAP-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -447,7 +447,7 @@
       "directions": 4
     },
     {
-      "name": "SYNDIE-equipped-OUTERCLOTHING-resomi",
+      "name": "SYNDIE-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -466,7 +466,7 @@
       "directions": 4
     },
     {
-      "name": "CMO-equipped-OUTERCLOTHING-resomi",
+      "name": "CMO-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -489,7 +489,7 @@
       "directions": 4
     },
     {
-      "name": "CE-equipped-OUTERCLOTHING-resomi",
+      "name": "CE-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -508,7 +508,7 @@
       "directions": 4
     },
     {
-      "name": "ROBO-equipped-OUTERCLOTHING-resomi",
+      "name": "ROBO-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -527,7 +527,7 @@
       "directions": 4
     },
     {
-      "name": "HOS-equipped-OUTERCLOTHING-resomi",
+      "name": "HOS-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -546,7 +546,7 @@
       "directions": 4
     },
     {
-      "name": "CENTCOM-equipped-OUTERCLOTHING-resomi",
+      "name": "CENTCOM-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -565,7 +565,7 @@
       "directions": 4
     },
     {
-      "name": "VIRO-equipped-OUTERCLOTHING-resomi",
+      "name": "VIRO-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -584,7 +584,7 @@
       "directions": 4
     },
     {
-      "name": "QM-equipped-OUTERCLOTHING-resomi",
+      "name": "QM-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -603,7 +603,7 @@
       "directions": 4
     },
     {
-      "name": "WEB-equipped-OUTERCLOTHING-resomi",
+      "name": "WEB-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -622,7 +622,7 @@
       "directions": 4
     },
     {
-      "name": "RD-equipped-OUTERCLOTHING-resomi",
+      "name": "RD-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
     {
@@ -651,7 +651,7 @@
       "directions": 4
     },
 	{
-      "name": "winterbits-equipped-OUTERCLOTHING-resomi",
+      "name": "winterbits-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
 	{
@@ -659,7 +659,7 @@
       "directions": 4
     },
 	{
-      "name": "winterbits-tan-equipped-OUTERCLOTHING-resomi",
+      "name": "winterbits-tan-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
 	{
@@ -691,7 +691,7 @@
       "directions": 4
     },
 	{
-      "name": "ARMOR-equipped-OUTERCLOTHING-resomi",
+      "name": "ARMOR-equipped-OUTERCLOTHING-avali",
       "directions": 4
     },
 	{
