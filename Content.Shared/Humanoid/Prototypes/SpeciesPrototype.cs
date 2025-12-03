@@ -98,6 +98,14 @@ public sealed partial class SpeciesPrototype : IPrototype
     [DataField]
     public List<Sex> Sexes { get; private set; } = new() { Sex.Male, Sex.Female };
 
+    // Corvax-LastnameGender-Start: Split lastname field by gender
+    [DataField]
+    public ProtoId<LocalizedDatasetPrototype> MaleLastNames { get; private set; } = "NamesHumanLastMale";
+
+    [DataField]
+    public ProtoId<LocalizedDatasetPrototype> FemaleLastNames { get; private set; } = "NamesHumanLastFemale";
+    // Corvax-LastnameGender-End
+
     /// <summary>
     ///     Characters younger than this are too young to be hired by Nanotrasen.
     /// </summary>
