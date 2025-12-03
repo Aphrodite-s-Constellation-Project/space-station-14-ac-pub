@@ -42,6 +42,6 @@ new_player_threshold = 120
 
 # Aphrodite random_characters = false ДА!
 [ic]
-random_characters = true
+random_characters = false
 random_species_weights = ""
 ssd_sleep_time = 3600
