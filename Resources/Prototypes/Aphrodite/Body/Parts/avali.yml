@@ -31,7 +31,7 @@
     partType: Torso
 
 - type: entity
-  id: AphroditeHeAphroditeesomi
+  id: AphroditeHeadAvali
   name: "Avali head"
   parent: AphroditePartAvali
   components:
