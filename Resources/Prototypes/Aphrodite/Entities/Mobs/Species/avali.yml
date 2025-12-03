@@ -71,7 +71,7 @@
       210: 0.7 # При 210K (-63°C) скорость снижается до 70%
       200: 0.6 # При 200K (-73°C) скорость снижается до 60%
   - type: ThermalRegulator
-    normalBodyTemperature: 296.15 # 23°C - целевая температура тела резоми
+    normalBodyTemperature: 296.15 # 23°C - целевая температура тела авали
     thermalRegulationTemperatureThreshold: 6  # Диапазон активации: 276K-306K (17°C до 29°C)
   - type: TemperatureProtection
     heatingCoefficient: 1.2  # На 20% быстрее нагреваются
