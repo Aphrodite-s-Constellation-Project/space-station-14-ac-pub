@@ -1,1 +1,1 @@
-species-name-avali = Avali
+species-name-avali = Авали
