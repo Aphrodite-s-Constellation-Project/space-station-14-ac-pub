@@ -1,0 +1,5 @@
+- type: localizedDataset
+  id: names_avali_female
+  values:
+    prefix: names_avali_female-
+    count: 52

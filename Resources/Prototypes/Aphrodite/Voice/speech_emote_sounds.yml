@@ -1,0 +1,51 @@
+- type: emoteSounds
+  id: MaleAvali
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: MaleAvaliScreams
+    Laugh:
+      collection: AvaliLaughs
+    Cough:
+      collection: AvaliCoughs
+    Sneeze:
+      collection: AvaliSneeze
+    Honk:
+      collection: BikeHorn
+    Whistle:
+      collection: Whistles
+    Crying:
+      collection: MaleCry
+    Weh:
+      collection: Weh
+    Gasp:
+      collection: MaleGasp
+    DefaultDeathgasp:
+      collection: DeathGasp
+
+- type: emoteSounds
+  id: FemaleAvali
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: FemaleAvaliScreams
+    Laugh:
+      collection: AvaliLaughs
+    Cough:
+      collection: AvaliCoughs
+    Sneeze:
+      collection: AvaliSneeze
+    Honk:
+      collection: BikeHorn
+    Whistle:
+      collection: Whistles
+    Crying:
+      collection: FemaleCry
+    Weh:
+      collection: Weh
+    Gasp:
+      collection: FemaleGasp
+    DefaultDeathgasp:
+      collection: FemaleDeathGasp

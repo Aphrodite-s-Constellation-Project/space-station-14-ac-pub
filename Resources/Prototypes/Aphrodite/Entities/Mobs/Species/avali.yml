@@ -1,0 +1,291 @@
+- type: entity
+  save: false
+  name: Urist McAvali
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobAvali
+  abstract: true
+  components:
+  # Tags
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+#   - AnomalyHost Будет в комменте до тех пор, пока не появится нормальный спрайт
+  # Visuals
+  - type: Icon
+    sprite: Aphrodite/Mobs/Species/Avali/parts.rsi
+    state: full
+  - type: HumanoidAppearance
+    species: Avali
+  - type: DamageVisuals
+    thresholds: [ 10, 30, 50, 70]
+    targetLayers:
+    - "enum.HumanoidVisualLayers.Chest"
+    - "enum.HumanoidVisualLayers.Head"
+    - "enum.HumanoidVisualLayers.LArm"
+    - "enum.HumanoidVisualLayers.LLeg"
+    - "enum.HumanoidVisualLayers.RArm"
+    - "enum.HumanoidVisualLayers.RLeg"
+    damageOverlayGroups:
+      Brute:
+        sprite: Aphrodite/Mobs/Effects/Avali/brute_damage.rsi
+        color: "#C048C2"
+      Burn:
+        sprite: Aphrodite/Mobs/Effects/Avali/burn_damage.rsi
+  - type: FireVisuals
+    sprite: Aphrodite/Mobs/Effects/onfire.rsi
+    normalState: avali-minor-burning
+    alternateState: avali-burning
+
+  # Mob
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      85: Critical
+      140: Dead
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatChicken
+      amount: 5
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Avali
+  - type: Bloodstream
+    bloodReagent: AvaliBlood
+  - type: Temperature
+    heatDamageThreshold: 308 # 35°C
+    coldDamageThreshold: 210 # -63°C
+    currentTemperature: 296.15 # 23°C
+    specificHeat: 42
+    coldDamage:
+      types:
+        Cold : 0.1 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 1.5 #per second, scales with temperature & other constants
+  - type: TemperatureSpeed
+    thresholds:
+      220: 0.8 # При 220K (-53°C) скорость снижается до 80%
+      210: 0.7 # При 210K (-63°C) скорость снижается до 70%
+      200: 0.6 # При 200K (-73°C) скорость снижается до 60%
+  - type: ThermalRegulator
+    normalBodyTemperature: 296.15 # 23°C - целевая температура тела авали
+    thermalRegulationTemperatureThreshold: 6  # Диапазон активации: 276K-306K (17°C до 29°C)
+  - type: TemperatureProtection
+    heatingCoefficient: 1.2  # На 20% быстрее нагреваются
+    coolingCoefficient: 0.8  # На 20% медленнее охлаждаются
+
+  # Fixtures
+  - type: Fixtures
+    fixtures: # TODO: This needs a second fixture just for mob collisions.
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        # they r smaller
+        density: 120
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+
+  # Melee
+  - type: MeleeWeapon
+    soundHit:
+      collection: AlienClaw
+    angle: 30
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 5
+  - type: Puller
+    needsHands: false
+
+  # Avali
+  - type: WeaponsUseInability
+  - type: AgillitySkill
+  - type: ChatModifier
+    modifiers:
+      Say: 12
+      WhisperClear: 4
+      WhisperMuffled: 7
+  - type: AvaliAccent
+  - type: FlashModifier
+    modifier: 2
+
+  # Body
+  - type: Body
+    prototype: Avali
+    requiredLegs: 2
+  - type: Hunger
+  - type: Thirst
+  - type: Vocal
+    sounds:
+      Male: MaleAvali
+      Female: FemaleAvali
+      Unsexed: MaleAvali
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessString: petting-success-avali
+    messagePerceivedByOthers: petting-success-avali-others
+  - type: Hands
+    inHandItemScale: 0.85, 0.85
+    leftHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+          state: inHand
+    rightHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+          state: inHand
+  - type: Inventory
+    speciesId: avali
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+      eyes:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: eyes
+      gloves:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: hands
+      head:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: head
+      back:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: back
+      ears:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: ears
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: feet
+      neck:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: neck
+      mask:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: mask
+      suitstorage:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: suitStorage
+      belt:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: belt
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobAvaliDummy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: HumanoidAppearance
+    species: Avali
+  - type: Hands
+    inHandItemScale: 0.85, 0.85
+    leftHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+          state: inHand
+    rightHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+          state: inHand
+  - type: Inventory
+    speciesId: avali
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: jumpsuit
+      eyes:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: eyes
+      gloves:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: hands
+      head:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: head
+      back:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: back
+      ears:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: ears
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: feet
+      neck:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: neck
+      mask:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: mask
+      suitstorage:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: suitStorage
+      belt:
+        sizeMaps:
+          32:
+            sprite: Aphrodite/Mobs/Species/Avali/displacement.rsi
+            state: belt

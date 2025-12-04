@@ -1,0 +1,40 @@
+# Avali
+- type: soundCollection
+  id: MaleAvaliScreams
+  files:
+    - /Audio/Aphrodite/Voice/Avali/avali_scream.ogg
+
+- type: soundCollection
+  id: FemaleAvaliScreams
+  files:
+    - /Audio/Aphrodite/Voice/Avali/avali_scream.ogg
+
+- type: soundCollection
+  id: AvaliLaughs
+  files:
+    - /Audio/Aphrodite/Voice/Avali/avali_laugh.ogg
+
+- type: soundCollection
+  id: AvaliSneeze
+  files:
+    - /Audio/Aphrodite/Voice/Avali/avali_sneeze.ogg
+
+- type: soundCollection
+  id: AvaliCoughs
+  files:
+    - /Audio/Aphrodite/Voice/Avali/avali_cough.ogg
+
+- type: soundCollection
+  id: AvaliHiss
+  files:
+    - /Audio/Aphrodite/Voice/Avali/avali_hiss.ogg
+
+- type: soundCollection
+  id: AvaliCoos
+  files:
+    - /Audio/Aphrodite/Voice/Avali/avali_coos.ogg
+
+- type: soundCollection
+  id: AvaliChirps
+  files:
+    - /Audio/Aphrodite/Voice/Avali/avali_chirps.ogg

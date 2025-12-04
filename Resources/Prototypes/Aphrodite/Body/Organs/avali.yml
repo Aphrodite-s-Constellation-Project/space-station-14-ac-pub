@@ -1,0 +1,9 @@
+- type: entity
+  id: AphroditeOrganAvaliLungs
+  parent: OrganHumanLungs
+  name: lungs
+  description: "An advanced pair of avian lungs. Filters oxygen by way of moving air constantly through air sacs."
+  suffix: Avali
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [ Avali ]
