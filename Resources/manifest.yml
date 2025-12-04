@@ -1,5 +1,5 @@
 ﻿defaultWindowTitle: Space Station 14 - Aphrodite [18+]
-windowIconSet: /Textures/Logo/icon
-splashLogo: /Textures/Logo/logo.png
+windowIconSet: /Textures/Logo/icon    # TODO: Нужна своя иконка
+splashLogo: /Textures/Logo/logo.png   # TODO: Нужно своё Лого
 
 # PJB PLEASE
