@@ -2,7 +2,7 @@ using Content.Shared.Interaction;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server.Actions;
-// wdw
+
 /// <summary>
 ///     This component enables an entity to perform actions when used to interact with the world, without actually
 ///     granting that action to the entity that is using the item.
