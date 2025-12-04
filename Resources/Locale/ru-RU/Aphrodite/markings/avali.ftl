@@ -23,4 +23,4 @@ marking-AvaliFluffHead = Авали Пух на голове
 marking-AvaliFluffHead-fluff_head = Авали Пух на голове
 
 marking-AvaliFluffHeadUp = Авали Пух на голове (верхний)
-marking-AvaliFluffHeadUp-fluff_head_up = Авали Пух на голове(верхний)
+marking-AvaliFluffHeadUp-fluff_head_up = Авали Пух на голове (верхний)
