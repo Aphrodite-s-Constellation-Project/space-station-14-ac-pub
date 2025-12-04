@@ -3,6 +3,8 @@ namespace Content.Shared.Flash.Components;
 
 /// <summary>
 /// Corvax-Next-Avali
+/// Модифицирует эффект ослепления для сущности.
+/// Используется для изменения длительности или интенсивности вспышки.
 /// </summary>
 
 [RegisterComponent]
