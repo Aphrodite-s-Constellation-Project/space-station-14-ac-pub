@@ -12,7 +12,7 @@
 - type: soundCollection
   id: AvaliLaughs
   files:
-    - /Audio/Aphrodite/Voice/Avali/avali_laught.ogg
+    - /Audio/Aphrodite/Voice/Avali/avali_laugh.ogg
 
 - type: soundCollection
   id: AvaliSneeze
