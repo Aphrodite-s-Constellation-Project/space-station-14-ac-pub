@@ -12,9 +12,9 @@ jobs:
           # Custom size configuration
           sizes: >
             {
-              "0": "XS",
-              "10": "S",
-              "100": "M",
-              "1000": "L",
-              "5000": "XL"
+              "0": ":seedling: XS (до 10 строк)",
+              "10": ":herb: S (10-100 строк)",
+              "100": ":deciduous_tree: M (100-1000 строк)",
+              "1000": ":evergreen_tree: L (1000-5000 строк)",
+              "5000": ":forest: XL (5000+ строк)"
             }
